@@ -1,0 +1,17 @@
+{
+  "name": "Scrapp Recorder",
+  "version": "1.1",
+  "manifest_version": 2,
+  "description": "Get pages source from a popup and then does some stuff...",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Scrapp"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": ["tabs", "<all_urls>"]
+  
+}
+
